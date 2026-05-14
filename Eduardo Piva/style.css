@@ -1,0 +1,61 @@
+/* Estilo geral */
+
+body {
+    font-family: Arial, sans-serif;
+    transition: 0.3s;
+}
+
+/* Container central */
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* ========================= */
+/* TEMA LIGHT */
+/* ========================= */
+
+body.light {
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+body.light .container {
+    background-color: white;
+}
+
+body.light button {
+    background-color: #222;
+    color: white;
+}
+
+/* ========================= */
+/* TEMA DARK */
+/* ========================= */
+
+body.dark {
+    background-color: #121212;
+    color: white;
+}
+
+body.dark .container {
+    background-color: #1e1e1e;
+}
+
+body.dark button {
+    background-color: white;
+    color: black;
+}
+
+/* Botão */
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
